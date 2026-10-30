@@ -3,7 +3,11 @@ src/**
 .gitignore
 .directory
 tsconfig.json
-.eslintrc
-.eslintignore
+biome.jsonc
+pnpm-lock.yaml
+pnpm-workspace.yaml
 **/*.map
 **/*.ts
+node_modules/**
+out/**
+!out/extension.js
